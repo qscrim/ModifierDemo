@@ -24,6 +24,7 @@ import androidx.compose.ui.unit.sp
 import com.sample.modifierdemo.ui.theme.ModifierDemoTheme
 import androidx.compose.foundation.Image
 import androidx.compose.ui.res.painterResource
+import androidx.compose.foundation.layout.*
 
 
 class MainActivity : ComponentActivity() {
@@ -59,6 +60,7 @@ fun DemoScreen(modifier: Modifier = Modifier) {
         CustomImage(R.drawable.vacation)
     }
 }
+
 
 @Composable
 fun CustomImage(image: Int, modifier: Modifier = Modifier) {
